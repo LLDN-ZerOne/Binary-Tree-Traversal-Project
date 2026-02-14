@@ -11,7 +11,7 @@ namespace Binary_Tree_Traversal_Project
         TreeNode rChild;
         TreeNode lChild;
         string data = "";
-        public TreeNode(string data,TreeNode rChild=null, TreeNode lChild=null)
+        public TreeNode(string data,TreeNode lChild = null, TreeNode rChild=null)
         {
             this.rChild = rChild;
             this.lChild = lChild;
